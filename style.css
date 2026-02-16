@@ -211,4 +211,28 @@
   }
 }
 
-.
+.hover-text {
+  color: rgb(0, 0, 0);
+  font-family: "Oswald";
+width: 10px;
+/* Optional: adds a smooth transition effect */
+  transition: color 0.3s ease;
+}
+
+/* Color on hover */
+.hover-text:hover {
+  color: rgb(209, 128, 15);
+}
+
+/* Example for a link */
+a {
+  color: black; /* Default link color */
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange; /* Link color on hover */
+}
+
+
+
